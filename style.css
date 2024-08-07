@@ -3,6 +3,17 @@
     color: white;
 }
 
+.rounded-image
+{
+ /* Căn giữa theo chiều ngang */
+    padding: 600px 600px 600px 600px;
+    border-radius: 100000px; 
+    width: 80px;
+    height: 80px;
+    object-fit: cover
+}
+#v1
+
 .font-0
 {
     font-family: Arial, sans-serif;
@@ -18,5 +29,13 @@
 
 .font-2{
     font-family: Arial, Helvetica, sans-serif;
-    
+
+}
+
+.underline-offset
+{
+    text-decoration: underline;
+    text-decoration-thickness: 2px; /* Độ dày của underline */
+    text-underline-offset: 10px;
+    text-decoration-color: white;
 }
