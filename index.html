@@ -19,17 +19,53 @@
 
         <h1>Badge</h1>
         <div class="font-0">Displays a badge or a component that looks like a badge</div>
-    </div>
-    
-    <div style="margin-top: 20px;">
-        <span class="underline-offset">Preview</span> 
-        <span style="margin-left: 10px;">Code</span>
-    </div>
-    
-    
+        <div style="margin-top: 20px;">
+            <span class="underline-offset">Preview</span> 
+            <span style="margin-left: 10px;">Code</span>
+        </div>
 
-    <div id = "v3">
-        
+        <div class="preview-section">
+            <div class="style-selector">
+                <label for="style-select">Style:</label>
+                <select id="style-select">
+                    <option value="default">Default</option>
+                </select>
+            </div>
+            <div class="badge-preview">
+                <span class="badge">Badge</span>
+            </div>
+        </div>
+    </div>
+    
+    <div id = "v3" style="margin-top: 20px;">
+        <div class="btn">
+            <span>Button</span>
+        </div>
+    </div>
+
+    <div id="v4">
+        <h2>Create project</h2>
+        <p>Deploy your new project in one-click.</p>
+
+        <label for="project-name">Name</label>
+        <input type="text" id="project-name" placeholder="Name of your project">
+
+        <label for="framework">Framework</label>
+        <select id="framework">
+            <option value="">Select</option>
+            <option value="react">React</option>
+            <option value="vue">Vue</option>
+            <option value="angular">Angular</option>
+        </select>
+
+        <div style="display: flex; justify-content: space-between;">
+            <button class="cancel">Cancel</button>
+            <button class="deploy">Deploy</button>
+        </div>
+    </div>
+
+    <div id="v5">
+        <div class="loader"></div>
     </div>
     
 </body>

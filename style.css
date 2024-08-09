@@ -5,7 +5,6 @@
 
 .rounded-image
 {
- /* Căn giữa theo chiều ngang */
     padding: 600px 600px 600px 600px;
     border-radius: 100000px; 
     width: 80px;
@@ -38,4 +37,132 @@
     text-decoration-thickness: 2px; /* Độ dày của underline */
     text-underline-offset: 10px;
     text-decoration-color: white;
+}
+
+
+.preview-section {
+    margin-top: 20px;
+    padding: 20px;
+    height: 500px;
+    border-radius: 8px;
+    border: 1px solid #444;
+}
+
+.style-selector label {
+    font-size: 16px;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.style-selector select {
+    color: #fff;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.badge-preview {
+    margin-top: 200px;
+    text-align: center;
+}
+
+.badge {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-size: 1rem;
+}
+
+#v3 .btn
+{
+    text-align: center;
+}
+
+#v3  >.btn >span
+{
+    background-color: white ;
+    color: black ;
+    font-family: Arial;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+#v4 {
+    margin: 100px 400px;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    border: 1px solid #444;
+}
+
+#v4 h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+#v4 p {
+    font-size: 0.9rem;
+    color: #aaa;
+    margin-bottom: 20px;
+}
+
+#v4 label {
+    display: block;
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+#v4 input[type="text"],
+#v4 select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #444;
+    color: #fff;
+}
+
+#v4 button {
+    width: calc(50% - 10px);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+#v4 button.cancel {
+    background-color: #333;
+    color: #fff;
+    margin-right: 20px;
+}
+
+#v4 button.deploy {
+    background-color: #fff;
+    color: #000;
+}
+
+#v4 button.cancel:hover {
+    background-color: #444;
+}
+
+#v4 button.deploy:hover {
+    background-color: #e0e0e0;
+}
+
+#v5
+{
+    margin-top: 100px;
+    margin-left: 400px;
+}
+
+#v5 .loader
+{
+    border: 16px solid #7fabc9; 
+    border-left: 16px solid #ffffff00; 
+    border-radius: 50%; 
+    width: 120px; 
+    height: 120px;
 }
